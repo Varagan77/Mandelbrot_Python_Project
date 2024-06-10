@@ -27,7 +27,6 @@ def plot_mandelbrot(width, height, xmin, xmax, ymin, ymax, max_iter):
     plt.ylabel('Imaginary')
     plt.show()
 
-# Define parameters here
 width = 1000
 height = 1000
 xmin, xmax = -2.0, 1.0
