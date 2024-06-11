@@ -1,2 +1,2 @@
-# fractalGenerator_Python_Project
+# Mandlebrot_Python_Project
  Fractal Generator made by Varagan77
