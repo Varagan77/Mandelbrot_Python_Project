@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+#maths
 def mandelbrot(c, max_iter):
     z = 0
     n = 0
@@ -18,7 +18,7 @@ def mandelbrot_set(width, height, xmin, xmax, ymin, ymax, max_iter):
             c = complex(real, imaginary)
             mandelbrot_image[y, x] = mandelbrot(c, max_iter)
     return mandelbrot_image
-
+#table
 def plot_mandelbrot(width, height, xmin, xmax, ymin, ymax, max_iter):
     mandelbrot_image = mandelbrot_set(width, height, xmin, xmax, ymin, ymax, max_iter)
     plt.imshow(mandelbrot_image, cmap='hot', extent=(xmin, xmax, ymin, ymax))
@@ -26,7 +26,7 @@ def plot_mandelbrot(width, height, xmin, xmax, ymin, ymax, max_iter):
     plt.xlabel('Real')
     plt.ylabel('Imaginary')
     plt.show()
-
+#settings
 width = 1000
 height = 1000
 xmin, xmax = -2.0, 1.0
